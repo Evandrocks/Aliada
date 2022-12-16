@@ -29,19 +29,19 @@ body{
 }
 
 .imagem-cabecalho{
-    height: 100px;
+    height: 80px;
 }
 
 .menu-cabecalho{
     display: flex;
-    gap: 40px;
+    gap: 18px;
 }
 
 .item-menu{
     font-family: 'Sarala', sans-serif;
     color:rgb(1, 1, 65);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .conteudo{
@@ -88,6 +88,11 @@ body{
     height: 220px;
     border-radius: 20px;
     align-items: center;
+}
+
+.tabela{
+    text-align: center; 
+    vertical-align: middle;
 }
 
 .divisor{
