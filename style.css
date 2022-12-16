@@ -18,8 +18,6 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-left: 18px;
-    padding-right: 18px;
     padding-top: 8px;
     padding-bottom: 8px;
     background-image: url(https://www.magmamarmores.com.br/imagens/produtos/marmores/marmore-carrara-gioia-01.jpg);
@@ -29,7 +27,7 @@ body{
 }
 
 .imagem-cabecalho{
-    height: 80px;
+    height: 40px;
 }
 
 .menu-cabecalho{
@@ -87,12 +85,12 @@ body{
 .foto-perfil{
     height: 220px;
     border-radius: 20px;
+    padding: 4px;
     align-items: center;
 }
 
 .tabela{
     text-align: center; 
-    vertical-align: middle;
 }
 
 .divisor{
@@ -122,11 +120,10 @@ body{
 }
 
 .rodape{
-    padding:30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     border-top: 0.5px solid rgb(1, 1, 65);
     background-color: #001247;
-    position: sticky;
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
 
 .imagem-rodape{
