@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: rgb(160, 160, 160);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: url(https://www.magmamarmores.com.br/imagens/produtos/marmores/marmore-carrara-gioia-01.jpg);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.imagem-cabecalho{
+    height: 100px;
+}
+
+.menu-cabecalho{
+    display: flex;
+    gap: 40px;
+}
+
+.item-menu{
+    font-family: 'Sarala', sans-serif;
+    color:rgb(1, 1, 65);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.conteudo{
+    border-top: 1px solid rgb(1, 1, 65);;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.titulo{
+    font-family: 'Oswald', sans-serif;
+    color:rgb(1, 1, 65);
+    font-weight: 600;
+    font-size: 32px;padding-bottom: 30px;
+}
+
+.texto{
+    font-family: 'Sarala', sans-serif;
+    color:rgb(1, 1, 65);
+    font-weight: 200;
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    color:rgb(1, 1, 65);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.foto-perfil{
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.divisor{
+    color:rgb(1, 1, 65);
+    display: block;
+    margin:0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.botao{
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    color:rgb(1, 1, 65);
+    font-weight: 400;
+    font-size: 18px;
+    display: block;
+    margin:0 auto;
+    padding: 10px;
+}
+
+.botao:hover{
+    background-color: gray;
+}
+
+.rodape{
+    padding:30px;
+    border-top: 0.5px solid rgb(1, 1, 65);
+    background-color: #001247;
+    position: sticky;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.imagem-rodape{
+    height:48px;
+    display: block;
+    margin:0 auto;
+}
+
